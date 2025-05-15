@@ -1,0 +1,51 @@
+
+.primeiro-titulo{
+    font-size: 40px;
+    text-align: center;
+    background-color: deeppink;
+    margin: auto;
+}
+
+
+.primeiro-subtitulo{
+    text-align: center;
+    background-color: chartreuse;
+}
+
+
+.img-rosto{
+
+    width: 35%;
+    height: auto;
+    display: block; 
+    margin: auto;
+    border-radius: 700px 100px 700px 100px;
+}
+
+
+.titulo-redes-sociais{
+    text-align: center;
+    background-color: blueviolet;
+    margin-top: 100px;
+
+}
+
+.sobre-mim{
+    text-align: justify;
+    margin-top: 100px;
+}
+
+.primeiro-olá{
+    text-align: center;
+    color: rgb(32, 119, 91);
+    margin-top: 50px;
+   
+}
+
+.rede-media{
+    text-align: center;
+}
+
+.media{
+    background-color: rgb(240, 173, 161);
+}

@@ -1,0 +1,21 @@
+*{
+    background-color: blueviolet;
+    font-size: 80px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tab-foto{
+    align-items: center;
+    padding: auto;
+    margin: 20px;
+}
+
+
