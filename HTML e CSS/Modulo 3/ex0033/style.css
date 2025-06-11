@@ -1,0 +1,43 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 30px;
+    }
+
+    table {
+      width: 700px;
+      border-collapse: collapse;
+      margin: 0 auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+
+    td:first-child {
+      text-align: left;
+    }
+
+    .area {
+      background-color: #e0e0e0;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    .subtotal {
+      background-color: #ddd;
+      font-weight: bold;
+    }
+
+    .center {
+      text-align: center;
+    }

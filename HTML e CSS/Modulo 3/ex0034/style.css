@@ -1,0 +1,38 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+/* tr.dest{
+    background-color: rgba(129, 129, 210, 0.896);
+} */
+
+col.cnome{
+    background-color: rgba(129, 129, 210, 0.896);
+}
+
+col.csexo{
+    background-color: rgba(59, 222, 33, 0.896);
+}
+
+col.cidade{
+    background-color: rgba(232, 106, 3, 0.896);
+}
+
+col.cprof{
+    background-color: rgba(220, 6, 166, 0.896);
+}
