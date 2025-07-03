@@ -11,10 +11,16 @@
 <body>
     <h1>Meu primeiro Formulário</h1>
 
-  <form>
-    <p>Nome: <input type="text" name="nome"  id="nome"></p>
-    <p>Sobrenome:<input type="text" name="sobrenome"  id="Sobrenome"></p>
-    <p><input type="submit" value="enviar"></p>
+  <form action="cadastro.php" method="POST" autocomplete="off">
+    <p><label for="inome">Nome:</label>
+       <input type="text" name="nome"  id="inome">
+    </p>
+    <p>S<label for="isobrenome">sobrenome:</label>
+      <input type="text" name="sobrenome"  id="isobrenome">
+    </p>
+    <p>
+      <input type="submit" value="enviar">
+    </p>
   </form>
     
 </body>
