@@ -21,7 +21,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -42,6 +42,30 @@ menu > ul > li > a{
 menu > ul > li > a:hover{
     background-color: gray;
 }
+
+svg#burger{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+menu#itens {
+  display: none;
+}
+
+
+svg#burger:hover{
+   
+    background-color: white;
+    color: black;
+
+}
+
+
 
 main {
     width: 90vw;
